@@ -8,13 +8,13 @@ driver.get("http://www.publix.com/products-services/deli/online-easy-ordering")
 LogIn = driver.find_element_by_xpath("//*[@id='pblx-user']/a[1]").click()
 
 email = driver.find_element_by_xpath("//*[@id='ctl00_DesktopView_txtLoginId']")
-email.send_keys("nicholascooke71201@gmail.com")
+email.send_keys("**************")
 email.send_keys("\ue004") #tab key
 
 
 
 password = driver.find_element_by_xpath("//*[@id='ctl00_DesktopView_txtPassword']")
-password.send_keys("SUBme123!@#")
+password.send_keys("********")
 
 button = driver.find_element_by_xpath("//*[@id='ctl00_DesktopView_btnLogin']").click()
 
